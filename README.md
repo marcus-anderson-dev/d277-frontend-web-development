@@ -7,11 +7,13 @@ Built for WGU's D277 Front-End Web Development course.
 
 ## Pages
 
-**Home** (`index.html`) | Main Page with Hero section, fact list, stat cards, and a table of cities by region |
-**Des Moines** (`cities/des-moines.html`) | State capital of Iowa: City overview with stats sidebar |
-**Cedar Rapids** (`cities/cedar-rapids.html`) | City overview with stats sidebar | 
-**Davenport** (`cities/davenport.html`) | City overview with stats sidebar |
-**Contact** (`contact.html`) | Contact form with validation
+| Page | What's on it |
+| --- | --- |
+| **Home** (`index.html`) | Main Page with Hero section, fact list, stat cards, and a table of cities by region |
+| **Des Moines** (`cities/des-moines.html`) | State capital of Iowa: City overview with stats sidebar |
+| **Cedar Rapids** (`cities/cedar-rapids.html`) | City overview with stats sidebar |
+| **Davenport** (`cities/davenport.html`) | City overview with stats sidebar |
+| **Contact** (`contact.html`) | Contact form with validation |
 
 ## Features
 
