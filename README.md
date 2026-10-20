@@ -1,4 +1,5 @@
 # Iowa | The Hawkeye State
+# WGU Project for Frontend Web Development.
 
 A multi-page tourism website about Iowa and three of its largest cities. It's built with plain HTML, CSS and JavaScript, with no frameworks.
 
@@ -6,20 +7,16 @@ Built for WGU's D277 Front-End Web Development course.
 
 ## Pages
 
-| Page | What's on it |
-| --- | --- |
-| **Home** (`index.html`) | Hero section with the state motto, a numbered fact list, statistic cards (population, median income, median age), and a table of cities by region |
-| **Des Moines** (`cities/des-moines.html`) | The state capital: a statistics sidebar and an overview of the city |
-| **Cedar Rapids** (`cities/cedar-rapids.html`) | Statistics sidebar and city overview |
-| **Davenport** (`cities/davenport.html`) | Statistics sidebar and city overview |
-| **Contact** (`contact.html`) | Contact form with client-side validation |
+**Home** (`index.html`) | Main Page with Hero section, fact list, stat cards, and a table of cities by region |
+**Des Moines** (`cities/des-moines.html`) | State capital of Iowa: City overview with stats sidebar |
+**Cedar Rapids** (`cities/cedar-rapids.html`) | City overview with stats sidebar | 
+**Davenport** (`cities/davenport.html`) | City overview with stats sidebar |
+**Contact** (`contact.html`) | Contact form with validation
 
 ## Features
 
-- **Shared navigation** on every page, with a "More Cities" dropdown menu built in pure CSS using `:hover`.
-- **Modern layout** using Flexbox for the header, hero and cards, and CSS Grid for the city pages' sidebar and content.
-- **Theming with CSS custom properties.** Colors are defined once in `:root` and reused across the site.
-- **Responsive contact form.** The two-column rows stack into one column on screens narrower than 600px.
+- **Shared navigation**
+- **Theming with CSS custom properties.**
 - **Form validation:**
   - HTML5 `required` fields and `type="email"` inputs.
   - JavaScript (`validateEmail()` in `main.js`) checks that the email and confirm-email fields match before submitting.
