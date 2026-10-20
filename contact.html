@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Iowa Welcome</title>
+    <link rel="stylesheet" href="./resources/styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <img src="./resources/images/iowalogo.png" alt="Iowa Logo" />
+        <h2 class="header-text">Iowa | <span>The Hawkeye State</span></h2>
+      </div>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./cities/des-moines.html">State Capital</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn"
+            >More Cities <span id="down-arrow">&#9660;</span></a
+          >
+          <div class="dropdown-menu">
+            <a href="./cities/cedar-rapids.html">Cedar Rapids</a>
+            <a href="./cities/des-moines.html">Des Moines</a>
+            <a href="./cities/davenport.html">Davenport</a>
+          </div>
+        </div>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-section-form">
+        <div class="city-header">
+          <p class="city-label">Get in touch</p>
+          <h1>Contact us</h1>
+          <p>Have any questions?</p>
+        </div>
+        <form
+          class="contact-form"
+          method="post"
+          action=""
+          onsubmit="return validateEmail()"
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="confirmEmail">Confirm Email</label>
+              <input
+                type="email"
+                id="confirmEmail"
+                name="confirmEmail"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="question">How can we help?</label>
+            <textarea
+              id="question"
+              name="question"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright 2025 Marcus Anderson.</p>
+      <ul>
+        <li><a href="../cities/cedar-rapids.html">Cedar Rapids</a></li>
+        <li><a href="../cities/davenport.html">Davenport</a></li>
+        <li><a href="../cities/des-moines.html">Des Moines</a></li>
+        <li><a href="../index.html">Contact</a></li>
+      </ul>
+    </footer>
+    <script src="./resources/scripts/main.js"></script>
+  </body>
+</html>
