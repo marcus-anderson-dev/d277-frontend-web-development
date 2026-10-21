@@ -44,5 +44,5 @@ Built for WGU's D277 Front-End Web Development course.
 No build step is needed. Clone the repo and open `index.html` in a browser:
 
 ```bash
-git clone https://github.com/aLLmentaLx/d277-frontend-web-development.git
+git clone https://github.com/marcus-anderson-dev/d277-frontend-web-development.git
 ```
